@@ -1,11 +1,11 @@
+import React from 'react';
 import './App.css';
+import Card_Practice from './Project/Card_Practice';
 
 function App() {
   return (
     <div className="App">
-      <h1> prabhakar tiwari
-      233
-    </h1>
+      < Card_Practice/>
     </div>
   );
 }
