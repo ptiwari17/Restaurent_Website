@@ -1,20 +1,18 @@
 import React from "react";
 import "./bootstrap.min.js";
 import "./bootstrap.min.css";
-import img1 from  "./BreakFast1.jpg";
-import img2 from  "./ptphoto.jpg";
-
+import img1 from "./BreakFast1.jpg";
+import img2 from "./coffee.jpg";
 const Card_Practice = () => {
   return (
     <div className="container bg-danger">
-      <img className="card-img-top" src={img2} alt="image_alt" />
       <div className="row bg-secondary mt-4 p-4">
         <div className="col-sm-4 bg-primary">
           <div className="card">
-            <img className="card-img-top" src={img1} alt="alt" />
-            {/* <div className="card-header bg-warning">
+            <img className="card-img-bottom" src={img1} alt="alt" />
+            <div className="card-header bg-warning">
               <h1 className="card-title">card header 1</h1>
-            </div> */}
+            </div>
             <div className="card-body bg-success">
               <h1 className="card-title">card body 1</h1>
               <p className="card-text"> this is information on card</p>
@@ -33,6 +31,7 @@ const Card_Practice = () => {
         <div className="col-sm-4 bg-info">
           <div className="card">
             <div className="card-header bg-warning">
+              <img className="card-img-top" src={img2} alt="image_alt" />
               <h1 className="card-title">card header 2</h1>
             </div>
             <div className="card-body bg-success">
@@ -53,6 +52,7 @@ const Card_Practice = () => {
         <div className="col-sm-4 bg-dark">
           <div className="card">
             <div className="card-header bg-warning">
+              <img className="card-img-top" src="Restaurant_Image/Lunch.jpg" alt="image_alt" />
               <h1 className="card-title">card header 3</h1>
             </div>
             <div className="card-body bg-success">
