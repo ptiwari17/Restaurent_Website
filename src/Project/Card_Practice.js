@@ -1,12 +1,13 @@
 import React from "react";
 import "./bootstrap.min.js";
 import "./bootstrap.min.css";
-import {img1} from  "./BreakFast1.jpg";
+import img1 from  "./BreakFast1.jpg";
+import img2 from  "./ptphoto.jpg";
 
 const Card_Practice = () => {
   return (
     <div className="container bg-danger">
-      <img className="card-img-top" src="img1" alt="image_alt" />
+      <img className="card-img-top" src={img2} alt="image_alt" />
       <div className="row bg-secondary mt-4 p-4">
         <div className="col-sm-4 bg-primary">
           <div className="card">
