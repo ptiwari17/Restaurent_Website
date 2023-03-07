@@ -4,7 +4,7 @@ import "./bootstrap.min.css";
 // import img1 from "./BreakFast1.jpg";
 // import img2 from "./coffee.jpg";
 const Card_Practice = ({ Menudata }) => {
-  console.log(Menudata);
+  // console.log(Menudata);
   return (
     <div className="container bg-danger">
       <div className="row bg-secondary mt-4 p-4">

@@ -8,8 +8,8 @@ const menu = [
     },
     { id:2,
         image:"Restaurant_Image/Lunch.jpg",
-        name:"Lunch",
-        category:"Rajasthani Thali",
+        name:"Thali",
+        category:"Lunch",
         price:85,
         description:"Take a lunch.We are providing varieties of healthy dishhes for lunch."
     },
