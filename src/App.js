@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Restaurant from './Project/Restaurant';
+import Lecture1 from './Thapa hook/Lecture1_4';
 
 function App() {
   return (
     <div className="App">
-      < Restaurant/>
+      < Lecture1/>
     </div>
   );
 }
