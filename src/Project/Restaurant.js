@@ -27,7 +27,7 @@ const Restaurant = () => {
 
     </div>
     <div>
-      < Card_Practice Menudata={Menudata} />
+      < Card_Practice Menudata1={Menudata} />
     </div>
   </>
   )

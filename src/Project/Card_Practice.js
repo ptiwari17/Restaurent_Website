@@ -3,14 +3,15 @@ import "./bootstrap.min.js";
 import "./bootstrap.min.css";
 // import img1 from "./BreakFast1.jpg";
 // import img2 from "./coffee.jpg";
-const Card_Practice = ({ Menudata }) => {
+const Card_Practice = ({ Menudata1 }) => {
   // console.log(Menudata);
   return (
     <div className="container bg-danger">
       <div className="row bg-secondary mt-4 p-4">
-        {Menudata.map((curElem) => {
+        {Menudata1.map((curElem) => {
           return (
             <div className="col-sm-6 col-lg-3 bg-primary" key={curElem.id}>
+            <button className="btn bg-danger rounded-5 btn-outline-light">{curElem.id}</button>
               <img
                 className="card-img-bottom"
                 src={curElem.image}

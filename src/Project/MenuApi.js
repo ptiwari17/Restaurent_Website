@@ -26,6 +26,27 @@ const menu = [
         category:"Milk-Shake",
         price:40,
         description:"A lot can happen with the one glass of milk. explore the new dimension with one full glass."
+    },
+    { id:5,
+        image:"Restaurant_Image/Nonveg.jpg",
+        name:"Nonveg-Thali",
+        category:"Lunch",
+        price:185,
+        description:"Take a lunch.We are providing varieties of healthy dishhes for lunch."
+    },
+    { id:6,
+        image:"Restaurant_Image/Thali.jpg",
+        name:"Thali",
+        category:"Lunch",
+        price:70,
+        description:"Take a lunch.We are providing varieties of healthy dishhes for lunch."
+    },
+    { id:7,
+        image:"Restaurant_Image/Salad.jpg",
+        name:"Salad",
+        category:"Lunch",
+        price:35,
+        description:"Take a lunch.We are providing varieties of healthy dishhes for lunch."
     }
 ]
 export default menu;
